@@ -1,0 +1,19 @@
+.carousel {
+    overflow: hidden;
+    position: relative;
+}
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+.carouselItem {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: #fff;
+}
+.indicators {
+    position: absolute;
+    bottom: 20px;
+}
